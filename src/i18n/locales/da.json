@@ -1,0 +1,354 @@
+{
+  "landing": {
+    "title": "Gør Det Let at Administrere Din Udlejning",
+    "intro": "Forestil dig et nemt online værktøj, der hjælper dig med alt, hvad der handler om at leje din bolig ud. Med vores ejendomsadministrationsværktøj kan du oprette lejekontrakter, minde lejere om betaling og holde styr på alle vigtige oplysninger—alt samlet ét sted.",
+    "benefits": {
+      "title": "Derfor vil du elske det:",
+      "timeTitle": "Spar Tid",
+      "timeDesc": "Slut med at rode rundt i papirbunker eller sende utallige e-mails. Alt er kun få klik væk.",
+      "organizationTitle": "Hold Styr på Det Hele",
+      "organizationDesc": "Hold lejekontrakter, betalingsplaner og lejers oplysninger pænt og overskueligt samlet.",
+      "securityTitle": "Føl Dig Tryg",
+      "securityDesc": "Værktøjet overholder dansk lovgivning og beskytter dine data, så du kan være sikker på, at alt foregår korrekt.",
+      "paymentsTitle": "Få Betalt Nemt",
+      "paymentsDesc": "Opsæt automatiske betalingspåmindelser, så du aldrig går glip af huslejen."
+    },
+    "cta": {
+      "title": "Start i Dag:",
+      "description": "Prøv vores værktøj, og oplev hvor enkelt det er at være udlejer!"
+    }
+  },
+  "profile": {
+    "edit": {
+      "title": "Rediger Profil",
+      "email": "E-mail",
+      "name": "Fulde Navn",
+      "phone": "Telefonnummer",
+      "invoiceEmail": "Faktura E-mail",
+      "address": "Adresse",
+      "password": {
+        "title": "Skift Adgangskode",
+        "current": "Nuværende Adgangskode",
+        "new": "Ny Adgangskode",
+        "confirm": "Bekræft Ny Adgangskode",
+        "update": "Opdater Adgangskode",
+        "success": "Adgangskode blev opdateret",
+        "error": "Kunne ikke opdatere adgangskode",
+        "mismatch": "Adgangskoderne matcher ikke"
+      },
+      "save": "Gem Ændringer",
+      "cancel": "Annuller",
+      "success": "Profil opdateret med succes",
+      "error": "Kunne ikke opdatere profilen"
+    }
+  },
+  "user": {
+    "role": "Rolle",
+    "quickActions": {
+      "title": "Hurtige Handlinger",
+      "viewProperties": "Se Ejendomme",
+      "manageContracts": "Administrer Kontrakter",
+      "paymentHistory": "Betalingshistorik"
+    },
+    "accountSettings": {
+      "title": "Kontoindstillinger",
+      "editProfile": "Rediger Profil",
+      "notificationSettings": "Notifikationsindstillinger",
+      "logout": "Log ud"
+    }
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "properties": "Ejendomme",
+    "contracts": "Kontrakter",
+    "payments": "Betalinger",
+    "settings": "Indstillinger"
+  },
+  "contracts": {
+    "title": "Kontrakter",
+    "createNew": "Opret Ny Kontrakt",
+    "back": "Tilbage til Kontrakter",
+    "preview": "Forhåndsvisning",
+    "generate": "Generer Kontrakt",
+    "cancel": "Annuller",
+    "templates": {
+      "standard": {
+        "title": "Standard Lejekontrakt",
+        "description": "En omfattende lejekontrakt velegnet til de fleste boligejendomme."
+      },
+      "room": {
+        "title": "Værelsekontrakt",
+        "description": "Specifikt designet til udlejning af enkelte værelser i delte ejendomme."
+      },
+      "commercial": {
+        "title": "Erhvervslejekontrakt",
+        "description": "Til erhvervsejendomme, herunder butikslokaler og kontorer."
+      },
+      "shortTerm": {
+        "title": "Korttidslejekontrakt",
+        "description": "Perfekt til ferieboliger og midlertidig indkvartering."
+      }
+    },
+    "form": {
+      "title": "Opret Kontrakt",
+      "startDate": "Startdato",
+      "endDate": "Slutdato (hvis tidsbegrænset)",
+      "sections": {
+        "parties": {
+          "title": "1. Parterne i aftalen",
+          "landlord": {
+            "title": "Udlejer",
+            "name": "Navn",
+            "address": "Adresse",
+            "phone": "Telefon",
+            "email": "Email"
+          },
+          "tenant": {
+            "title": "Lejer",
+            "name": "Navn",
+            "cpr": "CPR nr.",
+            "phone": "Telefon",
+            "email": "Email"
+          }
+        },
+        "property": {
+          "title": "2. Lejemålet",
+          "select": "Vælg ejendom",
+          "type": "Type",
+          "rooms": "Antal værelser",
+          "size": "Areal (m²)",
+          "accessories": {
+            "title": "Tilbehør",
+            "kitchen": "Køkken",
+            "appliances": "Hvidevarer",
+            "furniture": "Møbler"
+          }
+        },
+        "period": {
+          "title": "3. Lejeperiode",
+          "startDate": "Startdato",
+          "endDate": "Slutdato",
+          "indefinite": "Tidsubegrænset"
+        },
+        "payment": {
+          "title": "4. Husleje og betaling",
+          "rent": "Månedlig husleje",
+          "dueDate": "Betalingsdato",
+          "paymentMethod": {
+            "title": "Betalingsmetode",
+            "bankTransfer": "Bankoverførsel",
+            "mobilePay": "MobilePay"
+          },
+          "accountNumber": "Kontonr.",
+          "utilities": {
+            "title": "Forbrug",
+            "included": "Inkluderet i husleje",
+            "notIncluded": "Ikke inkluderet i husleje",
+            "water": "Vand",
+            "heating": "Varme",
+            "electricity": "El",
+            "internet": "Internet"
+          }
+        },
+        "deposit": {
+          "title": "5. Depositum og forudbetalt leje",
+          "amount": "Depositum",
+          "prepaidRent": "Forudbetalt husleje",
+          "dueDate": "Betaling skal ske senest"
+        },
+        "maintenance": {
+          "title": "6. Vedligeholdelse og reparationer",
+          "tenant": {
+            "title": "Lejers ansvar",
+            "description": "Lejer har ansvar for mindre reparationer og indvendig vedligeholdelse, såsom elpærer, vandhaner mv."
+          },
+          "landlord": {
+            "title": "Udlejers ansvar",
+            "description": "Udlejer står for større reparationer og vedligeholdelse, fx VVS, elinstallationer mv."
+          }
+        },
+        "houseRules": {
+          "title": "7. Husorden",
+          "smoking": "Ingen rygning indenfor",
+          "pets": {
+            "title": "Husdyr",
+            "allowed": "Tilladt",
+            "notAllowed": "Ikke tilladt"
+          },
+          "quiet": {
+            "title": "Støjbegrænsning",
+            "from": "Fra kl.",
+            "to": "til kl."
+          },
+          "waste": "Affald skal sorteres og afleveres korrekt"
+        },
+        "termination": {
+          "title": "8. Opsigelse og fraflytning",
+          "notice": {
+            "title": "Opsigelsesvarsel",
+            "landlord": "Udlejer",
+            "tenant": "Lejer",
+            "months": "måneder"
+          },
+          "moveOut": {
+            "title": "Fraflytning",
+            "description": "Lejer skal aflevere lejemålet i samme stand som ved overtagelse, medmindre andet er aftalt."
+          }
+        },
+        "specialTerms": {
+          "title": "9. Særlige vilkår",
+          "description": "Evt. yderligere vilkår aftalt mellem parterne"
+        },
+        "signatures": {
+          "title": "10. Underskrifter",
+          "landlord": {
+            "name": "Udlejer navn",
+            "date": "Dato",
+            "signature": "Underskrift"
+          },
+          "tenant": {
+            "name": "Lejer navn",
+            "date": "Dato",
+            "signature": "Underskrift"
+          }
+        }
+      }
+    },
+    "landlord": {
+        "title": "Udlejer Information",
+        "name": "Fulde navn",
+        "address": "Adresse",
+        "phone": "Telefonnummer",
+        "email": "E-mail"
+    },
+    "tenant": {
+        "title": "Lejer Information",
+        "name": "Fulde navn",
+        "address": "Nuværende adresse",
+        "phone": "Telefonnummer",
+        "email": "E-mail"
+    },
+    "property": {
+        "title": "Ejendomsoplysninger",
+        "select": "Vælg ejendom"
+    }
+  },
+  "properties": {
+    "title": "Ejendomme",
+    "edit": "Rediger",
+    "createNew": "Tilføj Ny Ejendom",
+    "noProperties": "Ingen ejendomme fundet",
+    "form": {
+      "address": {
+        "title": "Adresseoplysninger",
+        "street": "Vejnavn og nummer",
+        "city": "By",
+        "postalCode": "Postnummer",
+        "country": "Land"
+      },
+      "details": {
+        "title": "Ejendomsdetaljer",
+        "type": "Ejendomstype",
+        "types": {
+          "apartment": "Lejlighed",
+          "house": "Hus",
+          "room": "Værelse",
+          "commercial": "Erhverv"
+        },
+        "size": "Størrelse (m²)",
+        "rooms": "Antal værelser",
+        "floor": "Etage",
+        "constructionYear": "Byggeår",
+        "bathrooms": "Antal badeværelser",
+        "heatingCost": "Estimeret varmeudgift",
+        "heatingSolution": "Varmekilde",
+        "heatingSolutionHelper": "Hold Ctrl/Cmd nede for at vælge flere muligheder",
+        "heatingSolutions": {
+          "district": "Fjernvarme",
+          "gas": "Naturgas",
+          "oil": "Oliefyr",
+          "heatPump": "Varmepumpe",
+          "electric": "Elvarme",
+          "geothermal": "Jordvarme",
+          "pellet": "Pillefyr",
+          "wood": "Brændeovn",
+          "solar": "Solvarme"
+        },
+        "energyLabel": "Energimærke",
+        "distances": {
+          "title": "Afstande",
+          "school": "Afstand til skole (km)",
+          "shopping": "Afstand til indkøb (km)",
+          "publicTransport": {
+            "title": "Offentlig transport",
+            "bus": "Afstand til bus (km)",
+            "train": "Afstand til tog (km)"
+          }
+        },
+        "lease": {
+          "title": "Lejevilkår",
+          "term": "Lejeperiode (måneder)",
+          "renewalPolicy": "Forlængelsespolitik"
+        },
+        "amenities": {
+          "title": "Faciliteter",
+          "refrigerator": "Køleskab",
+          "washer": "Vaskemaskine",
+          "dryer": "Tørretumbler",
+          "dishwasher": "Opvaskemaskine",
+          "gym": "Fitness center",
+          "pool": "Swimmingpool",
+          "communityRoom": "Fællesrum",
+          "balcony": "Altan",
+          "garden": "Have",
+          "parkingLot": "Parkeringsplads"
+        },
+        "security": {
+          "title": "Sikkerhed",
+          "cctv": "Videoovervågning",
+          "alarm": "Alarmsystem",
+          "accessControl": "Adgangskontrol"
+        },
+        "status": {
+          "title": "Tilgængelighed",
+          "available": "Ledig",
+          "occupied": "Udlejet",
+          "maintenance": "Under vedligeholdelse"
+        },
+        "visitorPolicy": "Besøgspolitik",
+        "additionalFees": {
+          "title": "Ekstra udgifter",
+          "amount": "Beløb",
+          "included": "Inkluderet i lejen"
+        }
+      },
+      "facilities": {
+        "title": "Faciliteter",
+        "parking": "Parkering tilgængelig",
+        "elevator": "Elevator",
+        "furnished": "Møbleret",
+        "petsAllowed": "Husdyr tilladt",
+        "internetIncluded": "Internet inkluderet",
+        "heatingIncluded": "Varme inkluderet",
+        "waterIncluded": "Vand inkluderet"
+      },
+      "rent": {
+        "title": "Lejedetaljer",
+        "monthlyRent": "Månedlig leje",
+        "deposit": "Depositum",
+        "prepaidRent": "Forudbetalt leje"
+      },
+      "save": "Gem Ejendom",
+      "cancel": "Annuller",
+      "success": "Ejendommen blev gemt",
+      "error": "Kunne ikke gemme ejendommen",
+      "error": "Kunne ikke gemme ejendommen",
+      "images": {
+        "title": "Ejendomsbilleder",
+        "upload": "Upload Billede",
+        "uploading": "Uploader...",
+        "empty": "Ingen billeder uploadet endnu"
+      }
+    }
+  }
+}

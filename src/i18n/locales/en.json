@@ -1,0 +1,354 @@
+{
+  "landing": {
+    "title": "Make Managing Your Rental Property Easy",
+    "intro": "Imagine having a simple online tool that helps you handle everything about renting out your home or apartment. With our property management tool, you can create rental contracts, remind tenants to pay on time, and keep track of important details—all in one place.",
+    "benefits": {
+      "title": "Why You'll Love It:",
+      "timeTitle": "Save Time",
+      "timeDesc": "No more juggling papers or sending endless emails. Everything is just a few clicks away.",
+      "organizationTitle": "Stay Organized",
+      "organizationDesc": "Keep rental agreements, payment schedules, and tenant information neat and tidy.",
+      "securityTitle": "Feel Secure",
+      "securityDesc": "Our tool follows Danish law and keeps your data safe, so you can trust that you're doing everything right.",
+      "paymentsTitle": "Get Paid Easily",
+      "paymentsDesc": "Set up automatic payment reminders, making sure you never miss a rent payment again."
+    },
+    "cta": {
+      "title": "Start Today:",
+      "description": "Try our tool and see how simple being a landlord can be!"
+    }
+  },
+  "profile": {
+    "edit": {
+      "title": "Edit Profile",
+      "email": "Email",
+      "name": "Full Name",
+      "phone": "Phone Number",
+      "invoiceEmail": "Invoice Email",
+      "address": "Address",
+      "password": {
+        "title": "Change Password",
+        "current": "Current Password",
+        "new": "New Password",
+        "confirm": "Confirm New Password",
+        "update": "Update Password",
+        "success": "Password updated successfully",
+        "error": "Failed to update password",
+        "mismatch": "Passwords do not match"
+      },
+      "save": "Save Changes",
+      "cancel": "Cancel",
+      "success": "Profile updated successfully",
+      "error": "Failed to update profile"
+    }
+  },
+  "user": {
+    "role": "Role",
+    "quickActions": {
+      "title": "Quick Actions",
+      "viewProperties": "View Properties",
+      "manageContracts": "Manage Contracts",
+      "paymentHistory": "Payment History"
+    },
+    "accountSettings": {
+      "title": "Account Settings",
+      "editProfile": "Edit Profile",
+      "notificationSettings": "Notification Settings",
+      "logout": "Logout"
+    }
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "properties": "Properties",
+    "contracts": "Contracts",
+    "payments": "Payments",
+    "settings": "Settings"
+  },
+  "contracts": {
+    "title": "Contracts",
+    "createNew": "Create New Contract",
+    "back": "Back to Contracts",
+    "preview": "Preview",
+    "generate": "Generate Contract",
+    "cancel": "Cancel",
+    "templates": {
+      "standard": {
+        "title": "Standard Rental Agreement",
+        "description": "A comprehensive rental agreement suitable for most residential properties."
+      },
+      "room": {
+        "title": "Room Rental Agreement",
+        "description": "Specifically designed for renting individual rooms in shared properties."
+      },
+      "commercial": {
+        "title": "Commercial Lease",
+        "description": "For commercial properties, including retail spaces and offices."
+      },
+      "shortTerm": {
+        "title": "Short-Term Rental",
+        "description": "Perfect for vacation rentals and temporary accommodations."
+      }
+    },
+    "form": {
+      "title": "Create Contract",
+      "startDate": "Start Date",
+      "endDate": "End Date (if time-limited)",
+      "sections": {
+        "parties": {
+          "title": "1. Parties to the Agreement",
+          "landlord": {
+            "title": "Landlord",
+            "name": "Name",
+            "address": "Address",
+            "phone": "Phone",
+            "email": "Email"
+          },
+          "tenant": {
+            "title": "Tenant",
+            "name": "Name",
+            "cpr": "CPR no.",
+            "phone": "Phone",
+            "email": "Email"
+          }
+        },
+        "property": {
+          "title": "2. Rental Property",
+          "select": "Select property",
+          "type": "Type",
+          "rooms": "Number of rooms",
+          "size": "Area (m²)",
+          "accessories": {
+            "title": "Accessories",
+            "kitchen": "Kitchen",
+            "appliances": "Appliances",
+            "furniture": "Furniture"
+          }
+        },
+        "period": {
+          "title": "3. Rental Period",
+          "startDate": "Start date",
+          "endDate": "End date",
+          "indefinite": "Indefinite"
+        },
+        "payment": {
+          "title": "4. Rent and Payment",
+          "rent": "Monthly rent",
+          "dueDate": "Payment date",
+          "paymentMethod": {
+            "title": "Payment method",
+            "bankTransfer": "Bank transfer",
+            "mobilePay": "MobilePay"
+          },
+          "accountNumber": "Account number",
+          "utilities": {
+            "title": "Utilities",
+            "included": "Included in rent",
+            "notIncluded": "Not included in rent",
+            "water": "Water",
+            "heating": "Heating",
+            "electricity": "Electricity",
+            "internet": "Internet"
+          }
+        },
+        "deposit": {
+          "title": "5. Deposit and Prepaid Rent",
+          "amount": "Deposit",
+          "prepaidRent": "Prepaid rent",
+          "dueDate": "Payment due date"
+        },
+        "maintenance": {
+          "title": "6. Maintenance and Repairs",
+          "tenant": {
+            "title": "Tenant's Responsibility",
+            "description": "Tenant is responsible for minor repairs and internal maintenance, such as light bulbs, faucets, etc."
+          },
+          "landlord": {
+            "title": "Landlord's Responsibility",
+            "description": "Landlord is responsible for major repairs and maintenance, e.g., plumbing, electrical installations, etc."
+          }
+        },
+        "houseRules": {
+          "title": "7. House Rules",
+          "smoking": "No smoking indoors",
+          "pets": {
+            "title": "Pets",
+            "allowed": "Allowed",
+            "notAllowed": "Not allowed"
+          },
+          "quiet": {
+            "title": "Quiet hours",
+            "from": "From",
+            "to": "to"
+          },
+          "waste": "Waste must be sorted and disposed of correctly"
+        },
+        "termination": {
+          "title": "8. Termination and Moving Out",
+          "notice": {
+            "title": "Notice period",
+            "landlord": "Landlord",
+            "tenant": "Tenant",
+            "months": "months"
+          },
+          "moveOut": {
+            "title": "Moving out",
+            "description": "Tenant must return the property in the same condition as when received, unless otherwise agreed."
+          }
+        },
+        "specialTerms": {
+          "title": "9. Special Terms",
+          "description": "Any additional terms agreed between the parties"
+        },
+        "signatures": {
+          "title": "10. Signatures",
+          "landlord": {
+            "name": "Landlord name",
+            "date": "Date",
+            "signature": "Signature"
+          },
+          "tenant": {
+            "name": "Tenant name",
+            "date": "Date",
+            "signature": "Signature"
+          }
+        }
+      }
+    },
+    "landlord": {
+        "title": "Landlord Information",
+        "name": "Full Name",
+        "address": "Address",
+        "phone": "Phone Number",
+        "email": "Email"
+    },
+    "tenant": {
+        "title": "Tenant Information",
+        "name": "Full Name",
+        "address": "Current Address",
+        "phone": "Phone Number",
+        "email": "Email"
+    },
+    "property": {
+        "title": "Property Details",
+        "select": "Select Property"
+    }
+  },
+  "properties": {
+    "title": "Properties",
+    "edit": "Edit",
+    "createNew": "Add New Property",
+    "noProperties": "No properties found",
+    "form": {
+      "address": {
+        "title": "Address Details",
+        "street": "Street Address",
+        "city": "City",
+        "postalCode": "Postal Code",
+        "country": "Country"
+      },
+      "details": {
+        "title": "Property Details",
+        "type": "Property Type",
+        "types": {
+          "apartment": "Apartment",
+          "house": "House",
+          "room": "Room",
+          "commercial": "Commercial"
+        },
+        "size": "Size (m²)",
+        "rooms": "Number of Rooms",
+        "floor": "Floor",
+        "constructionYear": "Construction Year",
+        "bathrooms": "Number of Bathrooms",
+        "heatingCost": "Estimated Heating Cost",
+        "heatingSolution": "Heating Solution",
+        "heatingSolutionHelper": "Hold Ctrl/Cmd to select multiple options",
+        "heatingSolutions": {
+          "district": "District Heating",
+          "gas": "Natural Gas",
+          "oil": "Oil Heating",
+          "heatPump": "Heat Pump",
+          "electric": "Electric Heating",
+          "geothermal": "Geothermal Heating",
+          "pellet": "Pellet Stove",
+          "wood": "Wood-burning Stove",
+          "solar": "Solar Heating"
+        },
+        "energyLabel": "Energy Label",
+        "distances": {
+          "title": "Distances",
+          "school": "Distance to School (km)",
+          "shopping": "Distance to Shopping (km)",
+          "publicTransport": {
+            "title": "Public Transport",
+            "bus": "Distance to Bus Stop (km)",
+            "train": "Distance to Train Station (km)"
+          }
+        },
+        "lease": {
+          "title": "Lease Terms",
+          "term": "Lease Duration (months)",
+          "renewalPolicy": "Renewal Policy"
+        },
+        "amenities": {
+          "title": "Amenities",
+          "refrigerator": "Refrigerator",
+          "washer": "Washer",
+          "dryer": "Dryer",
+          "dishwasher": "Dishwasher",
+          "gym": "Gym Access",
+          "pool": "Pool Access",
+          "communityRoom": "Community Room",
+          "balcony": "Balcony",
+          "garden": "Garden",
+          "parkingLot": "Parking Lot"
+        },
+        "security": {
+          "title": "Security",
+          "cctv": "CCTV Surveillance",
+          "alarm": "Alarm System",
+          "accessControl": "Access Control System"
+        },
+        "status": {
+          "title": "Availability Status",
+          "available": "Available",
+          "occupied": "Occupied",
+          "maintenance": "Under Maintenance"
+        },
+        "visitorPolicy": "Visitor Policy",
+        "additionalFees": {
+          "title": "Additional Fees",
+          "amount": "Amount",
+          "included": "Included in Rent"
+        }
+      },
+      "facilities": {
+        "title": "Facilities",
+        "parking": "Parking Available",
+        "elevator": "Elevator",
+        "furnished": "Furnished",
+        "petsAllowed": "Pets Allowed",
+        "internetIncluded": "Internet Included",
+        "heatingIncluded": "Heating Included",
+        "waterIncluded": "Water Included"
+      },
+      "rent": {
+        "title": "Rent Details",
+        "monthlyRent": "Monthly Rent",
+        "deposit": "Deposit",
+        "prepaidRent": "Prepaid Rent"
+      },
+      "save": "Save Property",
+      "cancel": "Cancel",
+      "success": "Property saved successfully",
+      "error": "Failed to save property",
+      "error": "Failed to save property",
+      "images": {
+        "title": "Property Images",
+        "upload": "Upload Image",
+        "uploading": "Uploading...",
+        "empty": "No images uploaded yet"
+      }
+    }
+  }
+}
